@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Website</title>
+    <style>
+    .container {
+        display: flex;
+        align-items: center;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        max-width: 800px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .main {
+        flex-grow: 1;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    p {
+        margin-top: 5px 0;
+    }
+    .pagination {
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    .pagination a {
+      padding: 8px 16px;
+      text-decoration: none;
+      color: black;
+      transition: background 0.3s;
+    }
+
+    .pagination a.active {
+      background: dodgerblue;
+      color: white;
+    }
+
+    .pagination a:hover:not(.active) {
+      background: #ddd;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="main">
+      <h2>Subject Taken</h2>
+      <p>First Year - 1st semester</p>
+      <table>
+        <tbody><tr><th>Subject Name</th><th>Description</th><th>Units</th></tr>
+        <tr><td>OC 1</td><td>ORIENTATION COURSE</td><td>3.0</td></tr>
+        <tr><td>SOC SC 1</td><td>UNDERSTANDING THE SELF</td><td>3.0</td></tr>
+        <tr><td>ENGL A</td><td>GRAMMAR AND SPEECH</td><td>3.0</td></tr>
+        <tr><td>CSIT 1</td><td>INTRODUCTION TO COMPUTING</td><td>3.0</td></tr>
+        <tr><td>CSIT 2</td><td>FUNDAMENTALS OF PROGRAMMING</td><td>3.0</td></tr>
+        <tr><td>PE 1</td><td>MOVEMENT COMPETENCY TRAINING</td><td>2.0</td></tr>
+        <tr><td>NSTP 1</td><td>LITERACY TRAINING SERVICE (LTS)</td><td>3.0</td></tr>
+      </tbody></table>
+    </div>
+    </div>
+    <div class="pagination">
+        <a class="active" href="Enrolled.html">1</a>
+        <a href="sub2.html">2</a>
+        <a href="sub3.html">3</a>
+    </div>
+    <div class="footer">© 2024 - 2025 ITP4 | All Right Reserved</div>
+    <script src="script.js"></script>
+</body>
+</html>

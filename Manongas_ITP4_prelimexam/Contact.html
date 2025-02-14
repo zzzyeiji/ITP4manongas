@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Website</title>
+    <style>
+       
+
+        .container {
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .info {
+            flex-grow: 1;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+   .contact-info p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+
+  .contact-info img {
+    width: 40px;
+    margin-right: 15px;
+  }
+
+  .contact-info a {
+    color: #6FB1FC;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+    </style>
+</head>
+<body>
+  
+    <div class="container">
+        <div class="main-content">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+              <p><img src="assets/no.png"> (+63 927-864-9757)</p>
+              <p><img src="assets/fb.png"> <a href="https://www.facebook.com/jan.manongas/" target="_blank">Jan Yerner Manongas</a></p>
+              <p><img src="assets/email.png"> jymanongas24@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">© 2024 - 2025 ITP4 | All Right Reserved</div>
+    <script src="script.js"></script>
+</body>
+</html>
